@@ -1,0 +1,105 @@
+.container{
+    display: grid;
+    background-color: whitesmoke;
+    grid-template-columns: 370px 1450px;
+    grid-template-rows: 960px;
+    gap: 10px/10px;
+}
+.item{
+    border: none;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.sidebar{
+    background-color: #0ea5e9;
+}
+.items{
+    padding-left: 10px;
+    color: white;
+    font-size: xx-large;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dashboard{
+    margin: 50px;
+}
+.items > span{
+    color: white;
+    font-size: xx-large;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1420px;
+    grid-template-rows: 210px 720px;
+    border: none;
+}
+.header{
+    background-color: white;
+    border: none;
+}
+.dashboard-content{
+    background-color: whitesmoke;
+}
+.search-bar{
+    border-radius: 25px;
+    border: none;
+    padding: 20px; 
+    width: 550px;
+    height: 5px; 
+    padding-top: 25px; 
+    padding-left: 50px;
+    font-size: 21px;
+    background-color: whitesmoke;
+}
+.search-icon{
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+.bell-icon{
+    padding-left: 290px;
+    
+}
+.company-name{
+    padding-left: 30px;
+}
+.btn{
+    border-radius: 25px;
+    background-color: #00bcd4;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    margin-left: 20px;
+    margin-right: 50px;
+    border: none;
+    float: right;
+}
+.second-div{
+    padding-top: 30px;
+    padding-left: 80px;
+}
+strong[class=company-name]{
+    font-size: x-large;
+}
+.user{
+    padding-left: 40px;
+}
+.dashboard-content .content{
+    display: grid;
+    grid-template-columns: 460px 460px 460px;
+    grid-template-rows: 310px 310px;
+    grid-gap: 30px;
+}
+.div-item{
+    background-color: white;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+  text-align: justify;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: grey;
+}
